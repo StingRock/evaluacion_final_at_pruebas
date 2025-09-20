@@ -1,2 +1,4 @@
-# evaluacion_final_at_pruebas
-Evaluación Final de Automatización de Pruebas
+git clone https://github.com/StingRock/evaluacion_final_at_pruebas.git
+cd evaluacion_final_at_pruebas
+mvn install
+mvn test
