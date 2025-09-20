@@ -50,7 +50,7 @@ jobs:
 
       - name: Guardar evidencia del rollback
         if: ${{ failure() && steps.deploy_step.outcome == 'failure' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: rollback-evidencia
           path: rollback_log.txt
